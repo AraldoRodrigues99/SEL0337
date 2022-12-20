@@ -21,7 +21,6 @@ camera.start_preview(alpha = 250) # alpha test
 camera.brightness = 50
 camera.image_effect = 'colorswap' #change color
 
-# USP ID
 camera.annotate_text = "10788742"
 camera.annotate_text_size = 50
 
@@ -29,10 +28,9 @@ time.sleep(5)
 
 camera.stop_preview()
 
-camera.capture("/home/sel/pratica_camera.jpg") 
+camera.capture("/home/sel/pratica_camera.jpg") # nome da foto
 
-# record
-camera.start_recording("/home/sel/video_pratica_camera.h264") 
+camera.start_recording("/home/sel/video_pratica_camera.h264") # gravar 
 
 time.sleep(10)
 
